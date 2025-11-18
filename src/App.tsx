@@ -5,20 +5,28 @@ import Profile from './Components/Profile';
 import ProjectList from './Components/ProjectList';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
-// import { BubbleBackground } from '@/components/ui/shadcn-io/bubble-background';
+import { Particles } from "@/Components/ui/shadcn-io/particles";
 
 function App() {
   return (
     <div className="portfolio-container">
-      {/* <BubbleBackground interactive className="absolute inset-0 flex items-center justify-center rounded-xl"> */}
+
       <div className="formatting-div">
       <Header/>
       <Profile/>
       <ProjectList/>
       <Skills/>
       <Footer/>
+      <Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        staticity={50}
+        color="#ffffff"
+        size={0.8}
+      />
       </div>
-      {/* </BubbleBackground> */}
+
     </div>
   );
 }
