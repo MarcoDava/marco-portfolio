@@ -1,13 +1,17 @@
 import Project from "./Project";
 import ProjectData from "./ProjectData";
+import type { ProjectProps } from "../types/ProjectProps";
+
+
 export default function ProjectList() {
-     const projectElements = ProjectData.map(project => {
+
+     const projectElements = ProjectData.map((project: ProjectProps) => {
         return <Project
-            id={project.id}
+            id = {project.id}
+            projectLink={project.projectLink}
             image={project.image}
             projectTitle={project.projectTitle}
-            projectSummary={project.projectDescription}
-            projectLink={project.projectLink}
+            projectDescription={project.projectDescription}
         />
     })
     return(
