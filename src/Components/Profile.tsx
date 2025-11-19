@@ -1,7 +1,7 @@
 
 function Profile() {
   return (
-    <div className="profile-container">
+    <div className="profile-container min-h-screen">
       <div className="summary-container">
         <div className="profile-desc">
           <div className="intro-text-container">
@@ -30,8 +30,9 @@ function Profile() {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
         </p>
       </div>
-      <img src="/images/ArrowBottom.png" alt="Arrow Bottom"/>
-      <div className="h-100"/>
+        <div className="w-full flex justify-center items-center mt-[10vh] mb-[3vh]">
+          <img className="h-10 w-10 flex items-center justify-center" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="Arrow Bottom"/>
+        </div>
     </div>
   );
 }

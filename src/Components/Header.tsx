@@ -1,7 +1,7 @@
 
 function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container mt-[2vh]">
       <h3 className="name-header-nav">Marco Dava</h3>
       <div className="nav-link-container">
         <a className="nav-link" href="#project-section">Projects</a>

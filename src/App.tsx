@@ -10,8 +10,6 @@ import { Particles } from "@/Components/ui/shadcn-io/particles";
 function App() {
   return (
     <div className="portfolio-container">
-
-      <div className="formatting-div">
       <Header/>
       <Profile/>
       <ProjectList/>
@@ -25,7 +23,6 @@ function App() {
         color="#FDF4F8"
         size={0.8}
       />
-      </div>
 
     </div>
   );
