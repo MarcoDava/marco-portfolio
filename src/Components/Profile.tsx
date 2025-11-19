@@ -1,7 +1,4 @@
-// import profilePic from './images/MarcoProfilePic.jpg';//location of image is temporary until it can work in public folder
-// import icon1 from './images/github-icon.png';
-// import icon2 from './images/linkedin-icon.png';
-// import icon3 from './images/gmail-icon.png';
+
 function Profile() {
   return (
     <div className="profile-container">
@@ -18,13 +15,13 @@ function Profile() {
               <a href="https://drive.google.com/file/d/1I0EIPmfm525Ec2eEeG5MQetQ3cySBszi/view?usp=sharing" className="resume-button">
                 <span>Resume</span>
               </a>
-              {/* <a href="https://github.com/MarcoDava"><img className="profile-icon" src={icon1} alt="GitHub Icon"></img></a>
-              <a href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src={icon2} alt="LinkedIn Icon"></img></a>
-              <a href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src={icon3} alt="Gmail Icon"></img></a> */}
+              <a href="https://github.com/MarcoDava"><img className="profile-icon" src="https://img.icons8.com/ios11/512/FFFFFF/github.png" alt="GitHub Icon"></img></a>
+              <a href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src="https://img.icons8.com/ios11/512/FFFFFF/linkedin.png" alt="LinkedIn Icon"></img></a>
+              <a href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src="https://img.icons8.com/ios_filled/512/FFFFFF/gmail-new.png" alt="Gmail Icon"></img></a>
           </div>
         </div>
         <div className="image-container">
-          {/* <img className="profile-image" src={profilePic} alt="profile-pic"/> */}
+          <img className="profile-image" src="https://MarcoDava.github.io/marco-portfolio/images/MarcoProfilePic.jpg" alt="profile-pic"></img>
         </div>
       </div>
       <div className="aboutme-container">
@@ -33,6 +30,8 @@ function Profile() {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
         </p>
       </div>
+      <img src="/images/ArrowBottom.png" alt="Arrow Bottom"/>
+      <div className="h-100"/>
     </div>
   );
 }

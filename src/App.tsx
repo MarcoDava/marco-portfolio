@@ -22,7 +22,7 @@ function App() {
         quantity={100}
         ease={80}
         staticity={50}
-        color="#ffffff"
+        color="#FDF4F8"
         size={0.8}
       />
       </div>

@@ -2,6 +2,11 @@
 @import "tw-animate-css";
 /*---break---*/
 @custom-variant dark (&:is(.dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #1B2631;
 }
@@ -22,6 +27,7 @@
 .formatting-div {
   min-width: 380px;
   max-width: 60vw;
+  height:  100%;
 } 
 
 .header-container{
@@ -85,7 +91,6 @@
   justify-content: center;
   align-items: space-between;
   flex-direction: column;
-  margin-bottom: 5vh;
   width: 100%;
 }
 
@@ -99,6 +104,7 @@
 
 .profile-image {
   width: 100%;
+  height: auto;
   border-radius: 50%;
 }
 
