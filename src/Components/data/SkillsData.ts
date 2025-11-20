@@ -1,0 +1,215 @@
+
+
+export default [
+    // Languages
+    {
+        id: 1,
+        skillType: "languages",
+        image: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+        skillName: "Python",
+        skillLink: "https://www.python.org/",
+    },
+    {
+        id: 2,
+        skillType: "languages",
+        image: "https://img.icons8.com/color/512/java-coffee-cup-logo--v2.png",
+        skillName: "Java",
+        skillLink: "https://www.java.com/",
+    },
+    {
+        id: 3,
+        skillType: "languages",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Eo_circle_blue_white_letter-c.svg/2048px-Eo_circle_blue_white_letter-c.svg.png",
+        skillName: "C",
+        skillLink: "https://en.wikipedia.org/wiki/C_(programming_language)",
+    },
+    {
+        id: 4,
+        skillType: "languages",
+        image: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+        skillName: "JavaScript",
+        skillLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+        id: 5,
+        skillType: "languages",
+        image: "https://img.icons8.com/ios_filled/512/FFFFFF/c-sharp-logo.png",
+        skillName: "C#",
+        skillLink: "https://learn.microsoft.com/dotnet/csharp/",
+    },
+    {
+        id: 6,
+        skillType: "languages",
+        image: "https://img.icons8.com/?size=100&id=23028&format=png&color=FFFFFF",
+        skillName: "HTML",
+        skillLink: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    },
+    {
+        id: 7,
+        skillType: "languages",
+        image: "https://img.icons8.com/?size=100&id=qTLQNQjXAvIV&format=png&color=FFFFFF",
+        skillName: "CSS",
+        skillLink: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    },{
+        id: 8,
+        skillType: "languages",
+        image: "https://img.icons8.com/?size=100&id=qTLQNQjXAvIV&format=png&color=FFFFFF",
+        skillName: "TypeScript",
+        skillLink: "https://developer.mozilla.org/en-US/docs/Web/TypeScript",
+    },
+
+    // Libraries
+    {
+        id: 10,
+        skillType: "libraries",
+        image: "NA",
+        skillName: "TensorFlow",
+        skillLink: "https://www.tensorflow.org/",
+    },
+    {
+        id: 11,
+        skillType: "libraries",
+        image: "NA",
+        skillName: "NumPy",
+        skillLink: "https://numpy.org/",
+    },
+    {
+        id: 12,
+        skillType: "libraries",
+        image: "NA",
+        skillName: "Pandas",
+        skillLink: "https://pandas.pydata.org/",
+    },
+    {
+        id: 13,
+        skillType: "libraries",
+        image: "NA",
+        skillName: "GraphQL",
+        skillLink: "https://graphql.org/",
+    },
+    {
+        id: 14,
+        skillType: "libraries",
+        image: "NA",
+        skillName: "SQLite",
+        skillLink: "https://www.sqlite.org/",
+    },
+
+    // Databases
+    {
+        id: 20,
+        skillType: "databases",
+        image: "NA",
+        skillName: "MySQL",
+        skillLink: "https://www.mysql.com/",
+    },
+    {
+        id: 21,
+        skillType: "databases",
+        image: "NA",
+        skillName: "MongoDB",
+        skillLink: "https://www.mongodb.com/",
+    },
+    {
+        id: 22,
+        skillType: "databases",
+        image: "NA",
+        skillName: "PostgreSQL",
+        skillLink: "https://www.postgresql.org/",
+    },
+    {
+        id: 23,
+        skillType: "databases",
+        image: "NA",
+        skillName: "DjangoDB",
+        skillLink: "https://www.djangoproject.com/",
+    },
+
+    // Frameworks
+    {
+        id: 30,
+        skillType: "frameworks",
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/JavaFX_Logo.png/375px-JavaFX_Logo.png",
+        skillName: "JavaFX",
+        skillLink: "https://openjfx.io/",
+    },
+    {
+        id: 31,
+        skillType: "frameworks",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/.NET_Micro_Framework_Logo.png/1200px-.NET_Micro_Framework_Logo.png",
+        skillName: ".NET Framework",
+        skillLink: "https://dotnet.microsoft.com/",
+    },
+    {
+        id: 32,
+        skillType: "frameworks",
+        image: "NA",
+        skillName: "JavaSwing",
+        skillLink: "https://docs.oracle.com/javase/8/docs/technotes/guides/swing/",
+    },
+    {
+        id: 33,
+        skillType: "frameworks",
+        image: "NA",
+        skillName: "Flask",
+        skillLink: "https://flask.palletsprojects.com/",
+    },
+    {
+        id: 34,
+        skillType: "frameworks",
+        image: "NA",
+        skillName: "NextJS",
+        skillLink: "https://nextjs.org/",
+    },
+    {
+        id: 35,
+        skillType: "frameworks",
+        image: "NA",
+        skillName: "React.js",
+        skillLink: "https://react.dev/",
+    },
+
+    // Developer Tools
+    {
+        id: 40,
+        skillType: "tools",
+        image: "NA",
+        skillName: "AWS",
+        skillLink: "https://aws.amazon.com/",
+    },
+    {
+        id: 41,
+        skillType: "tools",
+        image: "NA",
+        skillName: "Git",
+        skillLink: "https://git-scm.com/",
+    },
+    {
+        id: 42,
+        skillType: "tools",
+        image: "NA",
+        skillName: "VS Code",
+        skillLink: "https://code.visualstudio.com/",
+    },
+    {
+        id: 43,
+        skillType: "tools",
+        image: "NA",
+        skillName: "Docker",
+        skillLink: "https://www.docker.com/",
+    },
+    {
+        id: 44,
+        skillType: "tools",
+        image: "NA",
+        skillName: "drawio",
+        skillLink: "https://app.diagrams.net/",
+    },
+    {
+        id: 45,
+        skillType: "tools",
+        image: "NA",
+        skillName: "Figma",
+        skillLink: "https://www.figma.com/",
+    },
+];

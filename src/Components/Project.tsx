@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 export default function Project(props: ProjectProps) {
   return (
     <motion.div 
-    className="project-container" 
+    className="project-container h-[50vh] w-[60vw]" 
     initial={{ opacity: 0, scale: 0.8 }}
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1.2, times: [0, 1] ,scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },}}

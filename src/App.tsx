@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Profile from './Components/Profile';
 import ProjectList from './Components/ProjectList';
-import Skills from './Components/Skills';
+import SkillsList from './Components/SkillsList';
 import Footer from './Components/Footer';
 import { Particles } from "@/Components/ui/shadcn-io/particles";
 
@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Profile/>
       <ProjectList/>
-      <Skills/>
+      <SkillsList/>
       <Footer/>
       <Particles
         className="absolute inset-0"

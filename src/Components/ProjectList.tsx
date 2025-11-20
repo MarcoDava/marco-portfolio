@@ -1,5 +1,5 @@
 import Project from "./Project";
-import ProjectData from "./ProjectData";
+import ProjectData from "./data/ProjectData";
 import type { ProjectProps } from "../types/ProjectProps";
 
 
