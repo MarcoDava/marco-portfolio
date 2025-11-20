@@ -53,7 +53,7 @@ export default [
     },{
         id: 8,
         skillType: "languages",
-        image: "https://img.icons8.com/?size=100&id=qTLQNQjXAvIV&format=png&color=FFFFFF",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
         skillName: "TypeScript",
         skillLink: "https://developer.mozilla.org/en-US/docs/Web/TypeScript",
     },
@@ -120,7 +120,7 @@ export default [
     {
         id: 23,
         skillType: "databases",
-        image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/django-logo-icon.png",
+        image: "https://img.icons8.com/m_sharp/1200/django.jpg",
         skillName: "DjangoDB",
         skillLink: "https://www.djangoproject.com/",
     },
