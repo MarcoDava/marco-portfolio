@@ -8,7 +8,7 @@ export default [
     },
     {
         id: 2,
-        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/GitTissueImage.jpg?raw=true",
+        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/GitTissuesImage.jpg?raw=true",
         projectTitle: "Git Tissues",
         projectDescription: " Built a full-stack web app that automates Git issue assignment and workflow tracking using GraphQL APIs. Implemented backend endpoints in Node.js, integrated with GitHub REST APIs, and improved CI/CD efficiency through automated backend task scheduling.",
         projectLink: "NA",
