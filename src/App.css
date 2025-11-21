@@ -93,8 +93,8 @@
 
 .profile-container {
   display: flex;
+  min-height: 90vh;
   justify-content: center;
-  align-items: space-between;
   flex-direction: column;
   height:  100%;
 }

@@ -1,5 +1,6 @@
 import {Link } from 'react-router-dom';
-
+import { motion } from "motion/react"
+import  BlurText  from '@/Components/ui/shadcn-io/blur-text';
 
 function Profile() {
   return (
@@ -7,12 +8,11 @@ function Profile() {
       <div className="summary-container max-w-[60vw]">
         <div className="profile-desc">
           <div className="intro-text-container">
-            <h3 className="intro-header">Hello, my name is</h3>
-            <h1 className="name-header">Marco Dava</h1>
+            <BlurText text="Hello, my name is" className="intro-header"/>
+            <BlurText text="Marco Dava" className="name-header"/>
           </div>
-          <p className="profile-paragraph">
-              A self taught machine learning engineering student that strives to solve everyday problems, specialized in reinforced learning models.
-          </p>
+          <p className="profile-paragraph">A self taught machine learning engineering student that strives to solve everyday problems, specialized in reinforced learning models.</p>
+
           <div className="icon-container">
               <Link to="/resumepage" className="resume-button max-w-[100px] flex justify-center items-center text-[1rem]">
                 Resume
@@ -32,8 +32,20 @@ function Profile() {
             I’m a software engineering student and team lead who’s passionate about building high-impact applications. I’ve led a team of developers to ship full-stack products, architected backend systems, and deployed scalable services using modern frameworks and cloud tools. My projects focus on reliability, usability, and clean engineering principles. I thrive in collaborative environments and enjoy turning complex problems into elegant, functional solutions.
         </p>
       </div>
-      <div className="w-[100vw] flex justify-center items-center mt-[15vh] w-[100%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631]">
-        <a href="#project-section"><img className="h-10 w-10 flex items-center justify-center" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="Arrow Bottom"/></a>
+      <div className="bg-transparent w-[100vw] flex justify-center items-center mt-[10vh] w-[95%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631] rounded-b-[2vh]">
+        <button 
+          className="bg-transparent border-none outline-none cursor-pointer"
+          onClick={() => 
+          {const element = document.getElementById('skills-section')
+          element?.scrollIntoView({ behavior: 'smooth' })
+          }}>
+          <motion.img 
+          whileInView={{ y: [0, -10, 0, -10, 0 ] }} 
+          className="h-10 w-10 flex items-center justify-center" 
+          src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" 
+          alt="Arrow Bottom"
+        />
+        </button>
       </div>
 
     </div>

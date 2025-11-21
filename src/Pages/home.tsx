@@ -2,7 +2,6 @@
 import '../App.css';
 import Header from '../Components/Header';
 import Profile from '../Components/Profile';
-import ProjectList from '../Components/ProjectList';
 import SkillsList from '../Components/SkillsList';
 import Footer from '../Components/Footer';
 import { Particles } from "@/Components/ui/shadcn-io/particles";

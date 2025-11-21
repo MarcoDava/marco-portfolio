@@ -3,11 +3,13 @@ import '../App.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import { Particles } from "@/Components/ui/shadcn-io/particles";
+import Contact from '@/Components/Contact';
 
 function contactpage() {
   return (
     <div className="portfolio-container">
       <Header/>
+      <Contact/>
       <Footer/>
       <Particles
         className="absolute inset-0"
