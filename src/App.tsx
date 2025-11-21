@@ -17,13 +17,12 @@ function App() {
       <Footer/>
       <Particles
         className="absolute inset-0"
-        quantity={100}
-        ease={80}
-        staticity={50}
+        quantity={150}
+        ease={200}
+        staticity={5}
         color="#FDF4F8"
         size={0.8}
       />
-
     </div>
   );
 }

@@ -1,8 +1,8 @@
 
 function Profile() {
   return (
-    <div className="profile-container min-h-screen">
-      <div className="summary-container">
+    <div className="profile-container flex flex-col justify-center items-center  mt-[9vh]">
+      <div className="summary-container max-w-[60vw]">
         <div className="profile-desc">
           <div className="intro-text-container">
             <h3 className="intro-header">Hello, my name is</h3>
@@ -24,15 +24,16 @@ function Profile() {
           <img className="profile-image" src="https://MarcoDava.github.io/marco-portfolio/images/MarcoProfilePic.jpg" alt="profile-pic"></img>
         </div>
       </div>
-      <div className="aboutme-container">
+      <div className="aboutme-container max-w-[60vw]">
         <h2 className="aboutme-header">ABOUT ME</h2>
         <p className="aboutme-section">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
         </p>
       </div>
-        <div className="w-full flex justify-center items-center mt-[10vh] mb-[3vh]">
-          <img className="h-10 w-10 flex items-center justify-center" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="Arrow Bottom"/>
-        </div>
+      <div className="w-[100vw] flex justify-center items-center mt-[10vh] w-[100%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631]">
+        <a href="#project-section"><img className="h-10 w-10 flex items-center justify-center" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="Arrow Bottom"/></a>
+      </div>
+
     </div>
   );
 }
