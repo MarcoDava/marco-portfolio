@@ -15,7 +15,7 @@ export default function ProjectList() {
         />
     })
     return(
-        <div id="project-section" className="project-list-container w-[100%] bg-gradient-to-t from-[#1B2631] to-[#2C3E50] flex justify-center items-center" >  
+        <div id="project-section" className="project-list-container w-[100%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631] flex justify-center items-center" >  
             <div className="mt-[10vh] w-[70vw]">
                 <h2 className="text-[1.5rem] text-[#A5C8D6]">PROJECTS</h2>
                 <div className="project-containers">

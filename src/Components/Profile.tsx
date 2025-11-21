@@ -1,3 +1,5 @@
+import {Link } from 'react-router-dom';
+
 
 function Profile() {
   return (
@@ -12,25 +14,25 @@ function Profile() {
               A self taught machine learning engineering student that strives to solve everyday problems, specialized in reinforced learning models.
           </p>
           <div className="icon-container">
-              <a href="https://drive.google.com/file/d/1I0EIPmfm525Ec2eEeG5MQetQ3cySBszi/view?usp=sharing" className="resume-button">
-                <span>Resume</span>
-              </a>
-              <a href="https://github.com/MarcoDava"><img className="profile-icon" src="https://img.icons8.com/ios11/512/FFFFFF/github.png" alt="GitHub Icon"></img></a>
-              <a href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src="https://img.icons8.com/ios11/512/FFFFFF/linkedin.png" alt="LinkedIn Icon"></img></a>
-              <a href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src="https://img.icons8.com/ios_filled/512/FFFFFF/gmail-new.png" alt="Gmail Icon"></img></a>
+              <Link to="/resumepage" className="resume-button max-w-[100px] flex justify-center items-center text-[1rem]">
+                Resume
+              </Link>
+              <a className="w-[30px] aspect-square" href="https://github.com/MarcoDava"><img className="profile-icon" src="https://img.icons8.com/ios11/512/FFFFFF/github.png" alt="GitHub Icon"></img></a>
+              <a className="w-[30px] aspect-square" href="https://www.linkedin.com/in/marcodava/"><img className="profile-icon"  src="https://img.icons8.com/ios11/512/FFFFFF/linkedin.png" alt="LinkedIn Icon"></img></a>
+              <a className="w-[30px] aspect-square" href="mailto:marco.a.dava@gmail.com"><img className="profile-icon" src="https://img.icons8.com/ios_filled/512/FFFFFF/gmail-new.png" alt="Gmail Icon"></img></a>
           </div>
         </div>
-        <div className="image-container">
+        <div className="image-container min-w-[100px]">
           <img className="profile-image" src="https://MarcoDava.github.io/marco-portfolio/images/MarcoProfilePic.jpg" alt="profile-pic"></img>
         </div>
       </div>
       <div className="aboutme-container max-w-[60vw]">
         <h2 className="aboutme-header">ABOUT ME</h2>
         <p className="aboutme-section">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+            I’m a software engineering student and team lead who’s passionate about building high-impact applications. I’ve led a team of developers to ship full-stack products, architected backend systems, and deployed scalable services using modern frameworks and cloud tools. My projects focus on reliability, usability, and clean engineering principles. I thrive in collaborative environments and enjoy turning complex problems into elegant, functional solutions.
         </p>
       </div>
-      <div className="w-[100vw] flex justify-center items-center mt-[10vh] w-[100%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631]">
+      <div className="w-[100vw] flex justify-center items-center mt-[15vh] w-[100%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631]">
         <a href="#project-section"><img className="h-10 w-10 flex items-center justify-center" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="Arrow Bottom"/></a>
       </div>
 

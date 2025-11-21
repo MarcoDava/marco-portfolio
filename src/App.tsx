@@ -1,29 +1,21 @@
 
 import './App.css';
-import Header from './Components/Header';
-import Profile from './Components/Profile';
-import ProjectList from './Components/ProjectList';
-import SkillsList from './Components/SkillsList';
-import Footer from './Components/Footer';
-import { Particles } from "@/Components/ui/shadcn-io/particles";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './Pages/home';
+import ContactPage from './Pages/contactpage';
+import ResumePage from './Pages/resumepage';
+import ProjectPage from './Pages/projectpage';
 
 function App() {
   return (
-    <div className="portfolio-container">
-      <Header/>
-      <Profile/>
-      <ProjectList/>
-      <SkillsList/>
-      <Footer/>
-      <Particles
-        className="absolute inset-0"
-        quantity={150}
-        ease={200}
-        staticity={5}
-        color="#FDF4F8"
-        size={0.8}
-      />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/projectpage" element={<ProjectPage/>}/>
+        <Route path="/contactpage" element={<ContactPage/>}/>
+        <Route path="/resumepage" element={<ResumePage/>}/> 
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,12 +1,14 @@
+import { Link } from "react-router";
 
 function Header() {
   return (
     <div className="header-container mt-[2vh]">
       <h3 className="name-header-nav">Marco Dava</h3>
       <div className="nav-link-container">
-        <a className="nav-link" href="#project-section">Projects</a>
-        <a className="nav-link" href="#skills-section">Skills</a>
-        <a className="nav-link" href="#contact-section">Contact</a>
+        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/projectpage">Projects</Link>
+        <Link className="nav-link" to="/resumepage">Resume</Link>
+        <Link className="nav-link" to="/contactpage">Contact</Link>
       </div>
     </div>
   );
