@@ -53,6 +53,13 @@ export default [
         image: "https://marcodava.github.io/pictures/QArm.jpg",
         projectTitle: "Q-Arm Algorithm",
         projectDescription: "Coded a robot arm to transfer medical containers into autoclaves, capable of being controlled by a user.",
-        projectLink: "NA",
+        projectLink: "https://github.com/MarcoDava/RobotArmPythonProgram",
+    },
+    {
+        id: 9,
+        image: "https://user-images.githubusercontent.com/36328597/43992265-c0a304ca-9d31-11e8-89d3-931ca3e3227f.png",
+        projectTitle: "Boston Housing Price Prediction",
+        projectDescription: "Predicts Boston Housing prices using a vectorized gradient descent algorithm which takes in various features to predict the Median value of owner-occupied homes.",
+        projectLink: "https://github.com/MarcoDava/SimpleLinearRegressionModel",
     },
 ];
