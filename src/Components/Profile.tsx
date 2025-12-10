@@ -32,6 +32,7 @@ function Profile() {
             I’m a software engineering student and team lead who’s passionate about building high-impact applications. I’ve led a team of developers to ship full-stack products, architected backend systems, and deployed scalable services using modern frameworks and cloud tools. My projects focus on reliability, usability, and clean engineering principles. I thrive in collaborative environments and enjoy turning complex problems into elegant, functional solutions.
         </p>
       </div>
+
       <div className="bg-transparent w-[100vw] flex justify-center items-center mt-[10vh] w-[95%] bg-gradient-to-t from-[#2C3E50] to-[#1B2631] rounded-b-[2vh]">
         <button 
           className="bg-transparent border-none outline-none cursor-pointer"
@@ -47,6 +48,8 @@ function Profile() {
         />
         </button>
       </div>
+
+      
 
     </div>
   );

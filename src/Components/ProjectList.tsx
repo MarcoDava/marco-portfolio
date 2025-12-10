@@ -21,6 +21,8 @@ export default function ProjectList() {
                 <div className="project-containers">
                     {projectElements}
                 </div>
+                
+
             </div>
         </div>
     )
