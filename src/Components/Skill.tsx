@@ -12,7 +12,11 @@ export default function Skills(props: SkillsProps) {
     
     >
         <a href={props.skillLink}>
-            <img className="w-[7vh] h-[7vh] rounded-[1.5vh] " src={props.image} alt="skill-pic" />
+            <img
+              className="w-[7vh] h-[7vh] rounded-[1.5vh] object-contain bg-[#0b1216] p-[0.8vh]"
+              src={props.image}
+              alt={props.skillName}
+            />
             <p className="text-[1rem] text-[#A5C8D6]">{props.skillName}</p>
         </a>
     </motion.div>

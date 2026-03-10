@@ -11,8 +11,8 @@ function Contact() {
             direction="top"
             className="text-4xl font-bold"
             />
-        <p className="mt-[10vh]">You can reach me through the following platforms:</p>
-        <div className="w-[50%] flex justify-around items-center mt-[10vh]">
+        <p className="mt-[10vh] text-center px-4">You can reach me through the following platforms:</p>
+        <div className="w-full max-w-[320px] flex justify-around items-center mt-[10vh]">
             <a className="w-[10vh] aspect-square" href="https://github.com/MarcoDava"><img className="w-[10vh] aspect-square" src="https://img.icons8.com/ios11/512/FFFFFF/github.png" alt="GitHub Icon"></img></a>
             <a className="w-[10vh] aspect-square" href="https://www.linkedin.com/in/marcodava/"><img className="w-[10vh] aspect-square"  src="https://img.icons8.com/ios11/512/FFFFFF/linkedin.png" alt="LinkedIn Icon"></img></a>
             <a className="w-[10vh] aspect-square" href="mailto:marco.a.dava@gmail.com"><img className="w-[10vh] aspect-square" src="https://img.icons8.com/ios_filled/512/FFFFFF/gmail-new.png" alt="Gmail Icon"></img></a>

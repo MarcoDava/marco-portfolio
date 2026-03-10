@@ -1,28 +1,33 @@
+import CrowdsurferImage from "@/assets/CrowdsurferImage.jpg";
+import GitTissuesImage from "@/assets/GitTissuesImage.jpg";
+import LockedImage from "@/assets/LockedImage.jpg";
+import ScriptSenseImage from "@/assets/ScriptSenseImage.jpg";
+
 export default [
     {
         id: 1,
-        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/CrowdsurferImage.jpg?raw=true",
+        image: CrowdsurferImage,
         projectTitle: "CrowdSurfer",
         projectDescription: "Developed a React Native mobile app that tracks user locations to determine a building's live occupancy. Built Node.js microservices with Express.js to manage location data, containerized services with Docker, and integrated a cloud-based NoSQL backend with CI/CD pipelines for continuous testing and deployment.",
         projectLink: "https://github.com/MarcoDava/CrowdSurfer",
     },
     {
         id: 2,
-        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/GitTissuesImage.jpg?raw=true",
+        image: GitTissuesImage,
         projectTitle: "Git Tissues",
         projectDescription: " Built a full-stack web app that automates Git issue assignment and workflow tracking using GraphQL APIs. Implemented backend endpoints in Node.js, integrated with GitHub REST APIs, and improved CI/CD efficiency through automated backend task scheduling.",
         projectLink: "https://github.com/MarcoDava/ConUHacks",
     },
     {
         id: 3,
-        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/LockedImage.jpg?raw=true",
+        image: LockedImage,
         projectTitle: "Locked App",
         projectDescription: "Developed a full-stack web application to track habits and rate productivity with a data-driven dashboard. Created backend APIs in Node.js for user authentication with MySQL and containerized services using Docker, following clean modular architecture and reusable React components.",
         projectLink: "https://github.com/MarcoDava/PomodoroTimer",
     },
     {
         id: 4,
-        image: "https://github.com/MarcoDava/marco-portfolio/blob/main/public/images/ScriptSenseImage.jpg?raw=true",
+        image: ScriptSenseImage,
         projectTitle: "ScriptSense",
         projectDescription: "Created a handwriting recognition web app achieving ~80% accuracy using TensorFlow with a MongoDB backend. Deployed services on AWS with REST APIs for scalable storage and retrieval, and applied CI practices and observer design patterns to enhance reliability.",
         projectLink: "https://github.com/MarcoDava/Handwriting_Recognition_Project",

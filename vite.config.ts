@@ -14,6 +14,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/marco-portfolio",
+  // Use root base path so assets/routes work on Vercel
+  base: "/",
   
 })
