@@ -83,28 +83,28 @@ export default function SkillsList() {
         alt="Marco Dava GitHub contribution chart"
       />
       
-            <div className="w-[70vw] flex justify-start items-center flex-col">
+            <div className="w-[70vw] flex justify-start items-start flex-col">
                 <h2 className="text-[1.5rem] text-[#A5C8D6] mb-[5vh]">LANGUAGES</h2>
-                <div className="w-[100%] m-[2vh] flex justify-start gap-[8vh] items-center flex-row flex-wrap">
+                <div className="h-full w-[100%] m-[2vh] flex justify-start gap-[8vh] items-start flex-row flex-wrap">
                     {languageSkills}
                 </div>
                 <h2 className="text-[1.5rem] text-[#A5C8D6] mb-[5vh]">FRAMEWORKS</h2>
-                <div className="w-[100%] m-[2vh] flex justify-start gap-[8vh] items-center flex-row flex-wrap">
+                <div className="h-full w-[100%] m-[2vh] flex justify-start gap-[8vh] items-start flex-row flex-wrap">
                     {frameworkSkills}
                 </div>
                 <h2 className="text-[1.5rem] text-[#A5C8D6] mb-[5vh]">LIBRARIES</h2>
-                <div className="w-[100%] m-[2vh] flex justify-start gap-[8vh] items-center flex-row flex-wrap">
+                <div className="h-full w-[100%] m-[2vh] flex justify-start gap-[8vh] items-start flex-row flex-wrap">
                     {librarySkills}
                 </div>
                 <h2 className="text-[1.5rem] text-[#A5C8D6] mb-[5vh]">TOOLS</h2>
-                <div className="w-[100%] m-[2vh] flex justify-start gap-[8vh] items-center flex-row flex-wrap">
+                <div className="h-full w-[100%] m-[2vh] flex justify-start gap-[8vh] items-start flex-row flex-wrap">
                     {toolSkills}
                 </div>
                 <h2 className="text-[1.5rem] text-[#A5C8D6] mb-[5vh]">DATABASES</h2>
-                <div className="w-[100%] m-[2vh] flex justify-start gap-[8vh] items-center flex-row flex-wrap">
+                <div className="h-full w-[100%] m-[2vh] flex justify-start gap-[8vh] items-start flex-row flex-wrap">
                     {databaseSkills}
                 </div>
-                <div className="h-[20vh] bg-gradient-to-t from-[#2C3E50] to-[#1B2631]"></div>
+                <div className="h-full bg-gradient-to-t from-[#2C3E50] to-[#1B2631]"></div>
             </div>
         </div>
     )

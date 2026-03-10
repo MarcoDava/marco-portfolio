@@ -2,6 +2,7 @@
 import '../App.css';
 import Header from '../Components/Header';
 import Profile from '../Components/Profile';
+import ExperienceSection from '../Components/ExperienceSection';
 import SkillsList from '../Components/SkillsList';
 import Footer from '../Components/Footer';
 import { Particles } from "@/Components/ui/shadcn-io/particles";
@@ -11,6 +12,7 @@ function home() {
     <div className="home-container">
       <Header/>
       <Profile/>
+      <ExperienceSection/>
       <SkillsList/>
       <Footer/>
       <Particles

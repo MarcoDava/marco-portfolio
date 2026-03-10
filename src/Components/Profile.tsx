@@ -4,8 +4,8 @@ import  BlurText  from '@/Components/ui/shadcn-io/blur-text';
 
 function Profile() {
   return (
-    <div className="profile-container flex flex-col justify-center items-center  mt-[9vh]">
-      <div className="summary-container max-w-[60vw]">
+    <div className="profile-container flex flex-col justify-center items-center">
+      <div className="summary-container max-w-[60vw] max-h-[60vh]">
         <div className="profile-desc">
           <div className="intro-text-container">
             <BlurText text="Hello, my name is" className="intro-header"/>

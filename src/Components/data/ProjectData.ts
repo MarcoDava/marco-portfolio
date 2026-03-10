@@ -67,4 +67,18 @@ export default [
         projectDescription: "Predicts Boston Housing prices using a vectorized gradient descent algorithm which takes in various features to predict the Median value of owner-occupied homes.",
         projectLink: "https://github.com/MarcoDava/SimpleLinearRegressionModel",
     },
+    {
+        id: 10,
+        image: "",
+        projectTitle: "Networkify",
+        projectDescription: "Built a full-stack platform that transforms raw LinkedIn connection exports into an interactive 2D/3D network graph using Python, FastAPI, Next.js, Three.js, and Neo4j to reveal hidden referral paths to target companies. Engineered an AI-powered outreach system that combines Backboard.io (GPT-4o-mini) and Gemini API to generate context-aware, personalized messages grounded in the user’s graph data and mutual connections. Implemented secure authentication with Auth0 and activity tracking to deliver a production-grade submission.",
+        projectLink: "",
+    },
+    {
+        id: 11,
+        image: "",
+        projectTitle: "MockRot",
+        projectDescription: "Built a full-stack web application during Mac-a-thon’s 24-hour hackathon that educates users to interview based on a job description, where the interviewer inherits a persona defined by the user and powered by Gemini. Utilized ElevenLabs to output text-to-speech using the persona’s voice and speech-to-text to receive user input. Implemented RAG with Backboard.io, improving response time by 50% and applying persistent memory with Gemini.",
+        projectLink: "",
+    },
 ];
