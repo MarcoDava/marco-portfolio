@@ -21,7 +21,7 @@ function ExperienceSection() {
             whileInView={{ opacity: 1, y: 0 }}
             animate={{
               scale: hoveredIndex === null ? 1 : hoveredIndex === 0 ? 1.05 : 0.95,
-              x: hoveredIndex === null ? 0 : hoveredIndex === 0 ? 10 : -10,
+              x: hoveredIndex === null ? 0 : hoveredIndex === 0 ? 20 : -20,
               y: hoveredIndex === null ? 0 : hoveredIndex === 0 ? 10 : -10,
               opacity: hoveredIndex === null ? 1 : hoveredIndex === 0 ? 1 : 0.8,
             }}
@@ -64,7 +64,7 @@ function ExperienceSection() {
             whileInView={{ opacity: 1, y: 0 }}
             animate={{
               scale: hoveredIndex === null ? 1 : hoveredIndex === 1 ? 1.05 : 0.95,
-              x: hoveredIndex === null ? 0 : hoveredIndex === 1 ? 10 : -10,
+              x: hoveredIndex === null ? 0 : hoveredIndex === 1 ? 20 : -20,
               y: hoveredIndex === null ? 0 : hoveredIndex === 1 ? 10 : -10,
               opacity: hoveredIndex === null ? 1 : hoveredIndex === 1 ? 1 : 0.8,
             }}
@@ -107,7 +107,7 @@ function ExperienceSection() {
             whileInView={{ opacity: 1, y: 0 }}
             animate={{
               scale: hoveredIndex === null ? 1 : hoveredIndex === 2 ? 1.05 : 0.95,
-              x: hoveredIndex === null ? 0 : hoveredIndex === 2 ? 10 : -10,
+              x: hoveredIndex === null ? 0 : hoveredIndex === 2 ? 20 : -20,
               y: hoveredIndex === null ? 0 : hoveredIndex === 2 ? 10 : -10,
               opacity: hoveredIndex === null ? 1 : hoveredIndex === 2 ? 1 : 0.8,
             }}
