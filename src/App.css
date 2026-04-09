@@ -166,8 +166,8 @@
 .project-containers{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  align-items: stretch;
+  justify-content: center;
   flex-wrap: wrap;
   width:100%;
   margin-bottom: 5vh;
@@ -178,7 +178,10 @@
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #A5C8D6;
-  margin-bottom: 4vh;
+  margin: 0 1rem 4vh 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @keyframes shine {

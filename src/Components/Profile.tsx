@@ -1,6 +1,7 @@
 import {Link } from 'react-router-dom';
 import { motion } from "motion/react"
 import  BlurText  from '@/Components/ui/shadcn-io/blur-text';
+import profilePic from '@/assets/ProfilePic.jpg';
 
 function Profile() {
   return (
@@ -23,7 +24,7 @@ function Profile() {
           </div>
         </div>
         <div className="image-container min-w-[100px]">
-          <img className="profile-image" src="https://MarcoDava.github.io/marco-portfolio/images/MarcoProfilePic.jpg" alt="profile-pic"></img>
+          <img className="profile-image" src={profilePic} alt="profile-pic"></img>
         </div>
       </div>
       <div className="aboutme-container max-w-[60vw]">
